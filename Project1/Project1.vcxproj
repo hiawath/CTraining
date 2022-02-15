@@ -145,6 +145,9 @@
     <ClCompile Include="..\ConsoleApplication1\memoryTest.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="pointer.c" />
+    <ClCompile Include="pointerCopy.c" />
+    <ClCompile Include="printf.c" />
+    <ClCompile Include="widthalign.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch4.h" />

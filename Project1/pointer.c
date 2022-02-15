@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int pointer()
+void pointer()
 {
 	int value = 38;
 	int* pi;

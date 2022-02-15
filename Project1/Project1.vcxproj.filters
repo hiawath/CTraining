@@ -30,6 +30,15 @@
     <ClCompile Include="..\ConsoleApplication1\HelloWorld.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pointerCopy.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="printf.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="widthalign.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch4.h">

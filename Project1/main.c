@@ -1,6 +1,6 @@
 #include "ch4.h"
 
-int main()
+void main()
 {
 	enum origin { EAST, WEST, SOUTH, NORTH };
 	enum origin mark = WEST;
@@ -9,4 +9,7 @@ int main()
 	move(head);
 	moveChar(mark);
 	pointer();
+	pointerCopy();
+	printf_();
+	widthalign();
 }

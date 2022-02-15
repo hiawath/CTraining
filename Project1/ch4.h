@@ -1,3 +1,6 @@
 void move(enum origin to);
 void moveChar(enum origin to);
-int pointer();
+void pointer();
+void pointerCopy();
+void printf_();
+void widthalign();
