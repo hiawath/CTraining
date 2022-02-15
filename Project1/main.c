@@ -1,5 +1,5 @@
 #include "ch4.h"
-
+#include "cursor.h"
 void main()
 {
 	enum origin { EAST, WEST, SOUTH, NORTH };
@@ -12,4 +12,7 @@ void main()
 	pointerCopy();
 	printf_();
 	widthalign();
+	scanf_();
+	scanf2_();
+	puts_();
 }

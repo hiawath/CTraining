@@ -39,9 +39,21 @@
     <ClCompile Include="widthalign.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="scanf_.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf2_.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="puts.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch4.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
