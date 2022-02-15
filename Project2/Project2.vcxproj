@@ -140,7 +140,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arithmatic.c" />
+    <ClCompile Include="cast.c" />
+    <ClCompile Include="convert.c" />
+    <ClCompile Include="intconvert.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="modular.c" />
+    <ClCompile Include="prepost.c" />
+    <ClCompile Include="priority.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch5.h" />

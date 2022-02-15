@@ -8,3 +8,4 @@ void widthalign();
 void scanf_();
 void scanf2_();
 void puts_();
+void cursor();

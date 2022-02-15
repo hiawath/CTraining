@@ -12,7 +12,8 @@ void main()
 	pointerCopy();
 	printf_();
 	widthalign();
-	scanf_();
-	scanf2_();
-	puts_();
+	//scanf_();
+	//scanf2_();
+	//puts_();
+	cursor();
 }

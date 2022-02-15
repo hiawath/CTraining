@@ -18,6 +18,27 @@
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="arithmatic.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="modular.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="prepost.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="priority.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="convert.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="intconvert.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cast.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch5.h">

@@ -143,6 +143,7 @@
     <ClCompile Include="..\ConsoleApplication1\enum.c" />
     <ClCompile Include="..\ConsoleApplication1\HelloWorld.c" />
     <ClCompile Include="..\ConsoleApplication1\memoryTest.c" />
+    <ClCompile Include="cursor.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="pointer.c" />
     <ClCompile Include="pointerCopy.c" />
