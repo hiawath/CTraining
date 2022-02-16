@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch3변수", "Project1\Proje
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch5연산자", "Project2\Project2.vcxproj", "{EE8D4F67-FC0D-4C4D-9801-7A3FB739C4ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch6조건문", "ch6조건문\ch6조건문.vcxproj", "{E060F9EB-61AE-4232-B6EC-248E14D1830B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{EE8D4F67-FC0D-4C4D-9801-7A3FB739C4ED}.Release|x64.Build.0 = Release|x64
 		{EE8D4F67-FC0D-4C4D-9801-7A3FB739C4ED}.Release|x86.ActiveCfg = Release|Win32
 		{EE8D4F67-FC0D-4C4D-9801-7A3FB739C4ED}.Release|x86.Build.0 = Release|Win32
+		{E060F9EB-61AE-4232-B6EC-248E14D1830B}.Debug|x64.ActiveCfg = Debug|x64
+		{E060F9EB-61AE-4232-B6EC-248E14D1830B}.Debug|x64.Build.0 = Debug|x64
+		{E060F9EB-61AE-4232-B6EC-248E14D1830B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E060F9EB-61AE-4232-B6EC-248E14D1830B}.Debug|x86.Build.0 = Debug|Win32
+		{E060F9EB-61AE-4232-B6EC-248E14D1830B}.Release|x64.ActiveCfg = Release|x64
+		{E060F9EB-61AE-4232-B6EC-248E14D1830B}.Release|x64.Build.0 = Release|x64
+		{E060F9EB-61AE-4232-B6EC-248E14D1830B}.Release|x86.ActiveCfg = Release|Win32
+		{E060F9EB-61AE-4232-B6EC-248E14D1830B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
