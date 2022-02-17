@@ -1,0 +1,14 @@
+int for_();
+int sum100();
+int sum100_minus();
+int sharAni();
+int twoControl();
+int ascii();
+int ascii2();
+int infinite();
+int nest();
+int rect();
+int triangle();
+int triangle2();
+int triangle3();
+int triangle4();

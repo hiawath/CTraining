@@ -18,33 +18,54 @@
     <ClInclude Include="cursor.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ch6.h">
+    <ClInclude Include="ch7.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="if.c">
+    <ClCompile Include="for.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sum100.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sum100-.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sharpAni.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="and.c">
+    <ClCompile Include="twoControl.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="leapyear.c">
+    <ClCompile Include="ascii.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="condition.c">
+    <ClCompile Include="ascii2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="oddeven.c">
+    <ClCompile Include="infinite.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="switch.c">
+    <ClCompile Include="nest.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="moveSharp.c">
+    <ClCompile Include="rect.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="triangel2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
