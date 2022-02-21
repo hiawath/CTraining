@@ -1,0 +1,3 @@
+/mnt/d/CTraining/ch10표준함수/CMakeFiles/rebuild_cache.dir
+/mnt/d/CTraining/ch10표준함수/CMakeFiles/edit_cache.dir
+/mnt/d/CTraining/ch10표준함수/CMakeFiles/andromeda-0.1.out.dir

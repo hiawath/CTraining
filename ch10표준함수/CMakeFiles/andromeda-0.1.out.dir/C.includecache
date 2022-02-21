@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/CTraining/ch10표준함수/cursor.h
+time.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/mnt/d/CTraining/ch10표준함수/ellapse.c
+stdio.h
+-
+time.h
+-
+cursor.h
+/mnt/d/CTraining/ch10표준함수/cursor.h
+

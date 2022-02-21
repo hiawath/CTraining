@@ -1,0 +1,1 @@
+gcc -DDEBUG -DC_FLAGS  -static -Wl,--gc-sections -DDEBUG -DLINKER_FLAGS -rdynamic CMakeFiles/andromeda-0.1.out.dir/main.c.o CMakeFiles/andromeda-0.1.out.dir/drawbox.c.o CMakeFiles/andromeda-0.1.out.dir/drawbox3.c.o  -o Debug/andromeda-0.1.out 

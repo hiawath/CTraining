@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/mnt/d/CTraining/ch9전처리기/build",
+  "command": "gcc  -I/mnt/d/CTraining/ch9전처리기/include -I/mnt/d/CTraining/ch9전처리기/driver/include  -DDEBUG -DC_FLAGS   -g -Wall -o CMakeFiles/andromeda-0.1.out.dir/main.c.o   -c /mnt/d/CTraining/ch9전처리기/main.c",
+  "file": "/mnt/d/CTraining/ch9전처리기/main.c"
+},
+{
+  "directory": "/mnt/d/CTraining/ch9전처리기/build",
+  "command": "gcc  -I/mnt/d/CTraining/ch9전처리기/include -I/mnt/d/CTraining/ch9전처리기/driver/include  -DDEBUG -DC_FLAGS   -g -Wall -o CMakeFiles/andromeda-0.1.out.dir/drawbox.c.o   -c /mnt/d/CTraining/ch9전처리기/drawbox.c",
+  "file": "/mnt/d/CTraining/ch9전처리기/drawbox.c"
+},
+{
+  "directory": "/mnt/d/CTraining/ch9전처리기/build",
+  "command": "gcc  -I/mnt/d/CTraining/ch9전처리기/include -I/mnt/d/CTraining/ch9전처리기/driver/include  -DDEBUG -DC_FLAGS   -g -Wall -o CMakeFiles/andromeda-0.1.out.dir/drawbox3.c.o   -c /mnt/d/CTraining/ch9전처리기/drawbox3.c",
+  "file": "/mnt/d/CTraining/ch9전처리기/drawbox3.c"
+}
+]
