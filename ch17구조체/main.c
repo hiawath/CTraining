@@ -3,5 +3,10 @@
 
 int main()
 {
-	human();
+	//human();
+	// structInit();
+	//structNest();
+	//shallowCopy();
+	deepCopy();
+	rotate();
 }

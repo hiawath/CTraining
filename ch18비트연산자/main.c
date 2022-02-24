@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include <string.h>
-
+//#include "main.h"
 int main()
 {
-	char str[] = "서울/대전/대구/부산";
-	char *ptr = strtok(str, "/");
-
-	while (ptr != NULL) {
-		puts(ptr);
-		ptr = strtok(NULL, "/");
-	}
+	bitoper();
+	extract();
+	shiftMulti();
+	encrypt();
+	bitField();
+	unionTest();
+	ipaddr();
+	anoununion();
+	aunion2();
+	aunion3();
+	//aunion4();
 }

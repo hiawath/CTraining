@@ -16,10 +16,18 @@ SET ( OUTPUT_ELF
         )
 SET ( SRC_FILES
          main.c
-         ptrptr.c
-         pointerTopointer.c
-         ptrRef.c
-         stringArray.c
+         bitoper.c
+         rotate.c
+         extract.c
+         shiftMulti.c
+         encrypt.c
+         bitField.c
+         unionTest.c
+         ipaddr.c
+         anoununion.c
+         aunion2.c
+         aunion3.c
+         aunion4.cpp
         )
  
 # 공통 컴파일러

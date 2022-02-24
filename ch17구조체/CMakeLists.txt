@@ -17,6 +17,11 @@ SET ( OUTPUT_ELF
 SET ( SRC_FILES
          main.c
          human.c
+         structInit.c
+         structNest.c
+         shallowCopy.c
+         deepCopy.c
+         rotate.c
          
         )
  

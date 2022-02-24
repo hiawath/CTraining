@@ -3,7 +3,7 @@
 
 int human()
 {
-	typedef struct 
+	typedef struct SHuman
 	{
 		char name[12];
 		int age;
