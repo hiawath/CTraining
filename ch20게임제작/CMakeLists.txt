@@ -16,10 +16,9 @@ SET ( OUTPUT_ELF
         )
 SET ( SRC_FILES
          main.c
-         ptrptr.c
-         pointerTopointer.c
-         ptrRef.c
-         stringArray.c
+         getch.c
+         sokoban.c
+        tetris.c
         )
  
 # 공통 컴파일러

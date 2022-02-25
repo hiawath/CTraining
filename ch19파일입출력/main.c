@@ -3,11 +3,9 @@
 
 int main()
 {
-	char str[] = "서울/대전/대구/부산";
-	char *ptr = strtok(str, "/");
-
-	while (ptr != NULL) {
-		puts(ptr);
-		ptr = strtok(NULL, "/");
-	}
+	fileio();
+	blockio();
+	randomAccess();
+	lowfileio();
+	findfirst();
 }

@@ -16,10 +16,11 @@ SET ( OUTPUT_ELF
         )
 SET ( SRC_FILES
          main.c
-         ptrptr.c
-         pointerTopointer.c
-         ptrRef.c
-         stringArray.c
+         fileio.c
+         blockio.c
+         randomAccess.c
+         lowfileio.c
+         findfirst.c
         )
  
 # 공통 컴파일러
