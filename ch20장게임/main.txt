@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define EXIT_SUCCESS 0
+
+static const char* FILE_NAME = "c:\\Temp\\file.txt";
+
+int getLen(FILE* file) {
+    fseek(file, 0, SEEK_END);
+    
+    return (int)ftell(file);
+}
+
+int main(void) {
+    FILE* f = fopen(FILE_NAME, "r+t");
+
+    // 파일의 크기를 읽어옴
+    int len = getLen(f);
+
+    char* temp = (char*)malloc(sizeof(char) * len);
+
+    rewind(f);
+
+    for (int i = 0; i < len; ++i) {
+        
+        //int a= fgetc(f);
+        temp[i] = fgetc(f);
+
+
+        if (temp[i] == '#') {
+            if ('0' <= temp[i + 1] && temp[i + 1] <= '9') {
+                temp[i + 1] + 1;
+                ++i;
+            }
+        }
+    }
+
+    fclose(f);
+
+    FILE* newfile = open(FILE_NAME, "wt");
+    fputs(temp, newfile);
+    fclose(newfile);
+
+    return EXIT_SUCCESS;
+}
