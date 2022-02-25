@@ -8,11 +8,11 @@ int main() {
 	prepareStage();
 	findMypositin();
 	clearScreen();
-	while (gameLoop()) {
+	while (gameLoop() && gameOver()) {
 		
 	}
 	
-	gameOver();
+	showcursor(TRUE);
 	return 0;
 
 
@@ -73,6 +73,19 @@ int gameLoop() {
 			if (gameStage[myY + dy][myX + dx] == 'O')
 			{
 				//그 다음 칸이 비어 있거나, 창고이어야 한다. 
+				if (gameStage[myY + dy * 2][myX + dx * 2] == ' ' || gameStage[myY + dy * 2][myX + dx * 2] == '.') {
+					if (baseStage[myY+dy][myX+dx]=='.') {
+						gameStage[myY + dy][myX + dx] = '.';
+					}
+					else {
+						gameStage[myY + dy][myX + dx] = ' ';
+					}
+
+					gameStage[myY + dy*2][myX + dx*2] = 'O';
+				}
+				else {
+					dx = dy = 0;
+				}
 
 			}
 
@@ -104,6 +117,24 @@ void clearScreen()
 	putsxy(45, 2, "소코반");
 	putsxy(45, 4, "ESC : 종료");
 }
-void gameOver() {
+int gameOver() {
+	BOOL end = TRUE;
+	for (int y = 0; y < ROW_MAX; y++)
+	{
+		for (int x = 0; x < COL_MAX; x++)
+		{
+			if (gameStage[y][x]=='.')
+			{
+				end = FALSE;
+			}
+		}
+	}
 
+	if (end) {
+		clrscr();
+		putsxy(10, 10, "참 잘했어요");
+		delay(2000);
+		return 0;
+	}
+	return 1;
 }

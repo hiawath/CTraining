@@ -35,4 +35,4 @@ void findMypositin();
 int gameLoop();
 void redraw();
 void clearScreen();
-void gameOver();
+int gameOver();
